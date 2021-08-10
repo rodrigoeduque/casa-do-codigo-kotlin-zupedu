@@ -1,16 +1,25 @@
-## Micronaut 2.5.11 Documentation
+## Documentação do aprendizado 📕
 
-- [User Guide](https://docs.micronaut.io/2.5.11/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.5.11/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.5.11/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-## Feature jdbc-hikari documentation
-
-- [Micronaut Hikari JDBC Connection Pool documentation](https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbc)
-
+- O que é Micronaut ? 🆗
+- Setup de um projeto utilizando Micronaut 🆗
+- Configuração do IntelliJ para o Micronaut 🆗
+- Recebendo dados via JSON 🆗
+- Validando os dados de entrada de uma requisição 🆗
+- Conversão de um objeto de entrada para um objeto de domínio 🆗
+- Gravando os dados com Micronaut Data 🆗
+- Fluxo completo para salvar um objeto no banco de dados 🆗
+- Retornando dados em JSON 🆗 
+  >``Primeiro Commit`` 👣🚀
+- Definindo headers e status customizados
+- Recebendo dados via PUT
+- Recebendo dados via DELETE
+- Métodos que geram queries no Micronaut Data
+- Mapeando queries explicitamente no Micronaut Data
+- Demarcação de transação
+- Consumindo um endpoint REST com Micronaut de forma declarativa
+- Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON
+- Implementando Validação customizada com Micronaut Validation
+- Micronaut Testing - como testar uma API REST
+- Micronaut Testing - como criar mocks com Micronaut
+- Micronaut Testing - controle transacional e banco em memória
+- 
