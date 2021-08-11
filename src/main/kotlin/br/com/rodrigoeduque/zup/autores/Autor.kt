@@ -12,8 +12,9 @@ class Autor(
     val nome: String,
     @Column(nullable = false)
     val email: String,
-    @Column(length = 400 )
+    @Column(length = 400)
     var descricao: String,
+    val endereco: Endereco,
 ) {
 
     @Id
