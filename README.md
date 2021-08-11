@@ -10,9 +10,9 @@
 - Fluxo completo para salvar um objeto no banco de dados 🆗
 - Retornando dados em JSON 🆗 
   >``Primeiro Commit`` 👣🚀
-- Definindo headers e status customizados
-- Recebendo dados via PUT
-- Recebendo dados via DELETE
+- Definindo headers e status customizados 🆗
+- Recebendo dados via PUT 🆗
+- Recebendo dados via DELETE 🆗
 - Métodos que geram queries no Micronaut Data
 - Mapeando queries explicitamente no Micronaut Data
 - Demarcação de transação

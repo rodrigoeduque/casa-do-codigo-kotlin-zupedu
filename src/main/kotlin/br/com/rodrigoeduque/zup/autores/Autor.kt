@@ -13,7 +13,7 @@ class Autor(
     @Column(nullable = false)
     val email: String,
     @Column(length = 400 )
-    val descricao: String,
+    var descricao: String,
 ) {
 
     @Id
