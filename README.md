@@ -13,13 +13,14 @@
 - Definindo headers e status customizados 🆗
 - Recebendo dados via PUT 🆗
 - Recebendo dados via DELETE 🆗
-- Métodos que geram queries no Micronaut Data
-- Mapeando queries explicitamente no Micronaut Data
-- Demarcação de transação
+  >``Segundo Commit`` 👣👣🚀
+- Métodos que geram queries no Micronaut Data 🆗
+- Mapeando queries explicitamente no Micronaut Data 🆗
+- Demarcação de transação 🆗
+  >``Terceiro Commit`` 👣👣🚀
 - Consumindo um endpoint REST com Micronaut de forma declarativa
 - Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON
 - Implementando Validação customizada com Micronaut Validation
 - Micronaut Testing - como testar uma API REST
 - Micronaut Testing - como criar mocks com Micronaut
 - Micronaut Testing - controle transacional e banco em memória
-- 
