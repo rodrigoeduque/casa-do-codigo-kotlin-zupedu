@@ -50,9 +50,11 @@ dependencies {
 
     //JPA
     runtime("io.micronaut.sql:micronaut-jdbc-hikari")
-
+    //Banco de Dados
     runtimeOnly("org.postgresql:postgresql")
 
+    //Desserialização XML
+    implementation("io.micronaut.xml:micronaut-jackson-xml")
 }
 
 

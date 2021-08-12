@@ -17,9 +17,11 @@
 - Métodos que geram queries no Micronaut Data 🆗
 - Mapeando queries explicitamente no Micronaut Data 🆗
 - Demarcação de transação 🆗
-  >``Terceiro Commit`` 👣👣🚀
-- Consumindo um endpoint REST com Micronaut de forma declarativa
-- Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON
+  >``Terceiro Commit`` 👣👣👣🚀
+- Consumindo um endpoint REST com Micronaut de forma declarativa 🆗
+  >``Quarto Commit`` 👣👣👣👣 🚀 🔝 💹
+- Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON 🆗
+  >``Quinto Commit`` 👣👣👣👣👣 🚀 
 - Implementando Validação customizada com Micronaut Validation
 - Micronaut Testing - como testar uma API REST
 - Micronaut Testing - como criar mocks com Micronaut

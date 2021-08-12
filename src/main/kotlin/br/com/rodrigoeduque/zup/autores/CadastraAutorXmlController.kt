@@ -11,17 +11,20 @@ import javax.transaction.Transactional
 import javax.validation.Valid
 
 @Validated
-@Controller("/autores")
-class CadastraAutorController(@Inject val autorRepository: AutorRepository, val enderecoClientJson: EnderecoClientJson) {
+@Controller("/autores-xml")
+class CadastraAutorXmlController(
+    @Inject val autorRepository: AutorRepository,
+    val enderecoClientXml: EnderecoClientXml,
+) {
 
 
     @Post
     @Transactional
     fun cadastra(@Body @Valid request: NovoAutorRequest): HttpResponse<Any> {
 
-        val enderecoResponse: HttpResponse<EnderecoResponse> = enderecoClientJson.consultaJson(request.cep)
+        val enderecoResponse: HttpResponse<EnderecoResponse> = enderecoClientXml.consultaXml(request.cep)
 
-        if (enderecoResponse.body()==null){
+        if (enderecoResponse.body() == null) {
             println("Retorno da consulta do CEP null")
             return HttpResponse.badRequest()
         }
@@ -35,6 +38,5 @@ class CadastraAutorController(@Inject val autorRepository: AutorRepository, val 
         return HttpResponse.created(uri)
 
     }
-
 
 }
