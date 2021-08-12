@@ -22,7 +22,8 @@
   >``Quarto Commit`` 👣👣👣👣 🚀 🔝 💹
 - Configurando seu HTTP client com Micronaut para trabalhar com XML em vez de JSON 🆗
   >``Quinto Commit`` 👣👣👣👣👣 🚀 
-- Implementando Validação customizada com Micronaut Validation
+- Implementando Validação customizada com Micronaut Validation 🆗
+  >``Sexto Commit`` 👣👣👣👣👣👣 🚀
 - Micronaut Testing - como testar uma API REST
 - Micronaut Testing - como criar mocks com Micronaut
 - Micronaut Testing - controle transacional e banco em memória
