@@ -5,3 +5,4 @@ data class EnderecoResponse(
     val localidade: String,
     val uf: String,
 )
+

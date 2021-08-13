@@ -5,6 +5,7 @@ import javax.persistence.Embeddable
 @Embeddable
 class Endereco(
     enderecoResponse: EnderecoResponse,
+    val cep : String,
     val numero: String,
 ) {
 
@@ -12,3 +13,4 @@ class Endereco(
     val cidade = enderecoResponse.localidade
     val estado = enderecoResponse.uf
 }
+

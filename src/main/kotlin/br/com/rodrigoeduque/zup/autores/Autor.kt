@@ -1,10 +1,7 @@
 package br.com.rodrigoeduque.zup.autores
 
 import java.time.LocalDateTime
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
+import javax.persistence.*
 
 @Entity
 class Autor(
@@ -18,7 +15,7 @@ class Autor(
 ) {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long? = null
 
     @Column(nullable = false)

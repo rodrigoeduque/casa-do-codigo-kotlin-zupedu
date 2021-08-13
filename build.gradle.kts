@@ -43,7 +43,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
     runtimeOnly("ch.qos.logback:logback-classic")
-    runtimeOnly("com.h2database:h2")
     implementation("io.micronaut:micronaut-validation")
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
@@ -55,6 +54,15 @@ dependencies {
 
     //Desserialização XML
     implementation("io.micronaut.xml:micronaut-jackson-xml")
+
+    //testes
+    testAnnotationProcessor("io.micronaut:micronaut-inject-java")
+    testImplementation("io.micronaut:micronaut-http-client")
+    testImplementation("org.junit.jupiter:junit-jupiter-api")
+    testImplementation("org.mockito:mockito-core:3.11.2")
+    testImplementation("io.micronaut.test:micronaut-test-junit5:2.3.7")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.1")
+    testImplementation("com.h2database:h2")
 }
 
 
